@@ -6,27 +6,9 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		B18FF3A41A9FE25700C0C3B0 /* docs */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = B18FF3A71A9FE25700C0C3B0 /* Build configuration list for PBXAggregateTarget "docs" */;
-			buildPhases = (
-				B18FF3A81A9FE26300C0C3B0 /* ShellScript */,
-			);
-			dependencies = (
-				B11DF3B11AA10795009E76D2 /* PBXTargetDependency */,
-			);
-			name = docs;
-			productName = docs;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		2433C9E31B9A506F0052D375 /* ORKKeychainWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2433C9E11B9A506F0052D375 /* ORKKeychainWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2433C9E41B9A506F0052D375 /* ORKKeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2433C9E21B9A506F0052D375 /* ORKKeychainWrapper.m */; };
-		248604061B4C98760010C8A0 /* ORKAnswerFormatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 248604051B4C98760010C8A0 /* ORKAnswerFormatTests.m */; };
-		2EBFE11D1AE1B32D00CB8254 /* ORKUIViewAccessibilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFE11C1AE1B32D00CB8254 /* ORKUIViewAccessibilityTests.m */; };
-		2EBFE1201AE1B74100CB8254 /* ORKVoiceEngineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFE11F1AE1B74100CB8254 /* ORKVoiceEngineTests.m */; };
 		6146D0A31B84A91E0068491D /* ORKLineGraphAccessibilityElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 6146D0A11B84A91E0068491D /* ORKLineGraphAccessibilityElement.h */; };
 		6146D0A41B84A91E0068491D /* ORKLineGraphAccessibilityElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 6146D0A21B84A91E0068491D /* ORKLineGraphAccessibilityElement.m */; };
 		618DA04E1A93D0D600E63AA8 /* ORKAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 618DA0481A93D0D600E63AA8 /* ORKAccessibility.h */; };
@@ -45,27 +27,16 @@
 		86C40D8E1A8D7C5C00081FAC /* ORKStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40BB91A8D7C5C00081FAC /* ORKStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C40D901A8D7C5C00081FAC /* ORKStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40BBA1A8D7C5C00081FAC /* ORKStep.m */; };
 		86C40D921A8D7C5C00081FAC /* ORKStep_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40BBB1A8D7C5C00081FAC /* ORKStep_Private.h */; };
-		86CC8EB31AC09383001CCD89 /* ORKAccessibilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC8EA81AC09383001CCD89 /* ORKAccessibilityTests.m */; };
-		86CC8EB41AC09383001CCD89 /* ORKChoiceAnswerFormatHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC8EA91AC09383001CCD89 /* ORKChoiceAnswerFormatHelperTests.m */; };
-		86CC8EB51AC09383001CCD89 /* ORKConsentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC8EAA1AC09383001CCD89 /* ORKConsentTests.m */; };
-		86CC8EB61AC09383001CCD89 /* ORKDataLoggerManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC8EAB1AC09383001CCD89 /* ORKDataLoggerManagerTests.m */; };
-		86CC8EB71AC09383001CCD89 /* ORKDataLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC8EAC1AC09383001CCD89 /* ORKDataLoggerTests.m */; };
-		86CC8EB81AC09383001CCD89 /* ORKHKSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC8EAD1AC09383001CCD89 /* ORKHKSampleTests.m */; };
-		86CC8EBA1AC09383001CCD89 /* ORKResultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC8EAF1AC09383001CCD89 /* ORKResultTests.m */; };
-		86CC8EBB1AC09383001CCD89 /* ORKTextChoiceCellGroupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC8EB01AC09383001CCD89 /* ORKTextChoiceCellGroupTests.m */; };
-		86D348021AC161B0006DB02B /* ORKRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D348001AC16175006DB02B /* ORKRecorderTests.m */; };
 		B183A4A21A8535D100C76870 /* ResearchKit_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B1B894391A00345200C5CF2D /* ResearchKit_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B183A4DD1A8535D100C76870 /* ResearchKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C1DE4F196F541F00F75544 /* ResearchKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1C0F4E41A9BA65F0022C153 /* ResearchKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1C0F4E11A9BA65F0022C153 /* ResearchKit.strings */; };
 		BA87E26D20A79FA100B375A9 /* ORKRingView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA87E26B20A79FA100B375A9 /* ORKRingView.h */; };
 		BA87E26E20A79FA100B375A9 /* ORKRingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87E26C20A79FA100B375A9 /* ORKRingView.m */; };
 		BC2908BC1FBD628F0030AB89 /* ORKTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2908BB1FBD628F0030AB89 /* ORKTypes.m */; };
-		BC40696121104DDF00A4100C /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B183A5951A8535D100C76870 /* ResearchKit.framework */; };
 		BC4A213F1C85FC0000BFC271 /* ORKBarGraphChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = BC4A213D1C85FC0000BFC271 /* ORKBarGraphChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC4A21401C85FC0000BFC271 /* ORKBarGraphChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4A213E1C85FC0000BFC271 /* ORKBarGraphChartView.m */; };
 		BC5FAF841C6901A200057CF1 /* ORKChartTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = BC5FAF821C6901A200057CF1 /* ORKChartTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC5FAF851C6901A200057CF1 /* ORKChartTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FAF831C6901A200057CF1 /* ORKChartTypes.m */; };
-		BCAD50E81B0201EE0034806A /* ORKTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAD50E71B0201EE0034806A /* ORKTaskTests.m */; };
 		BCB6E64A1B7D531C000D5B34 /* ORKPieChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB6E6481B7D531C000D5B34 /* ORKPieChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCB6E64B1B7D531C000D5B34 /* ORKPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB6E6491B7D531C000D5B34 /* ORKPieChartView.m */; };
 		BCB6E6501B7D533B000D5B34 /* ORKPieChartLegendCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB6E64C1B7D533B000D5B34 /* ORKPieChartLegendCollectionViewLayout.h */; };
@@ -82,7 +53,6 @@
 		BCB6E6661B7D535F000D5B34 /* ORKXAxisView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB6E6621B7D535F000D5B34 /* ORKXAxisView.h */; };
 		BCB6E6671B7D535F000D5B34 /* ORKXAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB6E6631B7D535F000D5B34 /* ORKXAxisView.m */; };
 		BCB8133C1C98367A00346561 /* ORKTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB8133B1C98367A00346561 /* ORKTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCB96C131B19C0EC002A0B96 /* ORKStepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB96C121B19C0EC002A0B96 /* ORKStepTests.m */; };
 		BCC1CD9A1B7ED64F00D86886 /* ORKYAxisView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC1CD981B7ED64F00D86886 /* ORKYAxisView.h */; };
 		BCC1CD9B1B7ED64F00D86886 /* ORKYAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC1CD991B7ED64F00D86886 /* ORKYAxisView.m */; };
 		BCD192DF1B81240400FCC08A /* ORKPieChartPieView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD192DD1B81240400FCC08A /* ORKPieChartPieView.h */; };
@@ -92,34 +62,11 @@
 		BCD192EB1B81245500FCC08A /* ORKPieChartTitleTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD192E91B81245500FCC08A /* ORKPieChartTitleTextView.h */; };
 		BCD192EC1B81245500FCC08A /* ORKPieChartTitleTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD192EA1B81245500FCC08A /* ORKPieChartTitleTextView.m */; };
 		BCD192EE1B81255F00FCC08A /* ORKPieChartView_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD192ED1B81255F00FCC08A /* ORKPieChartView_Internal.h */; };
-		FA7A9D2B1B082688005A2BEA /* ORKConsentDocumentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A9D2A1B082688005A2BEA /* ORKConsentDocumentTests.m */; };
-		FA7A9D371B09365F005A2BEA /* ORKConsentSectionFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A9D361B09365F005A2BEA /* ORKConsentSectionFormatterTests.m */; };
-		FA7A9D391B0969A7005A2BEA /* ORKConsentSignatureFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A9D381B0969A7005A2BEA /* ORKConsentSignatureFormatterTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		86CC8EA11AC09332001CCD89 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FFF18351829DB1D00167070 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B183A4731A8535D100C76870;
-			remoteInfo = OpenResearchKit;
-		};
-		B11DF3B01AA10795009E76D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FFF18351829DB1D00167070 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B183A4731A8535D100C76870;
-			remoteInfo = OpenResearchKit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2433C9E11B9A506F0052D375 /* ORKKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKKeychainWrapper.h; sourceTree = "<group>"; };
 		2433C9E21B9A506F0052D375 /* ORKKeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKKeychainWrapper.m; sourceTree = "<group>"; };
-		248604051B4C98760010C8A0 /* ORKAnswerFormatTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKAnswerFormatTests.m; sourceTree = "<group>"; };
-		2EBFE11C1AE1B32D00CB8254 /* ORKUIViewAccessibilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKUIViewAccessibilityTests.m; sourceTree = "<group>"; };
-		2EBFE11F1AE1B74100CB8254 /* ORKVoiceEngineTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKVoiceEngineTests.m; sourceTree = "<group>"; };
 		6146D0A11B84A91E0068491D /* ORKLineGraphAccessibilityElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKLineGraphAccessibilityElement.h; sourceTree = "<group>"; };
 		6146D0A21B84A91E0068491D /* ORKLineGraphAccessibilityElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKLineGraphAccessibilityElement.m; sourceTree = "<group>"; };
 		618DA0481A93D0D600E63AA8 /* ORKAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKAccessibility.h; sourceTree = "<group>"; };
@@ -139,18 +86,6 @@
 		86C40BBA1A8D7C5C00081FAC /* ORKStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ORKStep.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		86C40BBB1A8D7C5C00081FAC /* ORKStep_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKStep_Private.h; sourceTree = "<group>"; };
 		86C40C101A8D7C5C00081FAC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86CC8E9A1AC09332001CCD89 /* ResearchKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResearchKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		86CC8EA71AC09383001CCD89 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86CC8EA81AC09383001CCD89 /* ORKAccessibilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKAccessibilityTests.m; sourceTree = "<group>"; };
-		86CC8EA91AC09383001CCD89 /* ORKChoiceAnswerFormatHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKChoiceAnswerFormatHelperTests.m; sourceTree = "<group>"; };
-		86CC8EAA1AC09383001CCD89 /* ORKConsentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKConsentTests.m; sourceTree = "<group>"; };
-		86CC8EAB1AC09383001CCD89 /* ORKDataLoggerManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKDataLoggerManagerTests.m; sourceTree = "<group>"; };
-		86CC8EAC1AC09383001CCD89 /* ORKDataLoggerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKDataLoggerTests.m; sourceTree = "<group>"; };
-		86CC8EAD1AC09383001CCD89 /* ORKHKSampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKHKSampleTests.m; sourceTree = "<group>"; };
-		86CC8EAF1AC09383001CCD89 /* ORKResultTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKResultTests.m; sourceTree = "<group>"; };
-		86CC8EB01AC09383001CCD89 /* ORKTextChoiceCellGroupTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKTextChoiceCellGroupTests.m; sourceTree = "<group>"; };
-		86D348001AC16175006DB02B /* ORKRecorderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ORKRecorderTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		B11DF3B31AA109C8009E76D2 /* AppledocSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppledocSettings.plist; sourceTree = "<group>"; };
 		B11DF4C21AA10D70009E76D2 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/ResearchKit.strings; sourceTree = "<group>"; };
 		B14660481AA10DD7002F95C2 /* zh_TW */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/ResearchKit.strings; sourceTree = "<group>"; };
 		B183A5951A8535D100C76870 /* ResearchKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ResearchKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,7 +136,6 @@
 		BC4A213E1C85FC0000BFC271 /* ORKBarGraphChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORKBarGraphChartView.m; path = Charts/ORKBarGraphChartView.m; sourceTree = "<group>"; };
 		BC5FAF821C6901A200057CF1 /* ORKChartTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORKChartTypes.h; path = Charts/ORKChartTypes.h; sourceTree = "<group>"; };
 		BC5FAF831C6901A200057CF1 /* ORKChartTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORKChartTypes.m; path = Charts/ORKChartTypes.m; sourceTree = "<group>"; };
-		BCAD50E71B0201EE0034806A /* ORKTaskTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKTaskTests.m; sourceTree = "<group>"; };
 		BCB6E6481B7D531C000D5B34 /* ORKPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORKPieChartView.h; path = Charts/ORKPieChartView.h; sourceTree = "<group>"; };
 		BCB6E6491B7D531C000D5B34 /* ORKPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORKPieChartView.m; path = Charts/ORKPieChartView.m; sourceTree = "<group>"; };
 		BCB6E64C1B7D533B000D5B34 /* ORKPieChartLegendCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORKPieChartLegendCollectionViewLayout.h; path = Charts/ORKPieChartLegendCollectionViewLayout.h; sourceTree = "<group>"; };
@@ -218,7 +152,6 @@
 		BCB6E6621B7D535F000D5B34 /* ORKXAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORKXAxisView.h; path = Charts/ORKXAxisView.h; sourceTree = "<group>"; };
 		BCB6E6631B7D535F000D5B34 /* ORKXAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORKXAxisView.m; path = Charts/ORKXAxisView.m; sourceTree = "<group>"; };
 		BCB8133B1C98367A00346561 /* ORKTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKTypes.h; sourceTree = "<group>"; };
-		BCB96C121B19C0EC002A0B96 /* ORKStepTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKStepTests.m; sourceTree = "<group>"; };
 		BCC1CD981B7ED64F00D86886 /* ORKYAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORKYAxisView.h; path = Charts/ORKYAxisView.h; sourceTree = "<group>"; };
 		BCC1CD991B7ED64F00D86886 /* ORKYAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = ORKYAxisView.m; path = Charts/ORKYAxisView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		BCD192DD1B81240400FCC08A /* ORKPieChartPieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORKPieChartPieView.h; path = Charts/ORKPieChartPieView.h; sourceTree = "<group>"; };
@@ -228,21 +161,9 @@
 		BCD192E91B81245500FCC08A /* ORKPieChartTitleTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORKPieChartTitleTextView.h; path = Charts/ORKPieChartTitleTextView.h; sourceTree = "<group>"; };
 		BCD192EA1B81245500FCC08A /* ORKPieChartTitleTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORKPieChartTitleTextView.m; path = Charts/ORKPieChartTitleTextView.m; sourceTree = "<group>"; };
 		BCD192ED1B81255F00FCC08A /* ORKPieChartView_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORKPieChartView_Internal.h; path = Charts/ORKPieChartView_Internal.h; sourceTree = "<group>"; };
-		FA7A9D2A1B082688005A2BEA /* ORKConsentDocumentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKConsentDocumentTests.m; sourceTree = "<group>"; };
-		FA7A9D361B09365F005A2BEA /* ORKConsentSectionFormatterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKConsentSectionFormatterTests.m; sourceTree = "<group>"; };
-		FA7A9D381B0969A7005A2BEA /* ORKConsentSignatureFormatterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKConsentSignatureFormatterTests.m; sourceTree = "<group>"; };
-		FB30E8571C7D030F0005AD25 /* ORKTextButton_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ORKTextButton_Internal.h; path = ../../../ResearchKit/ResearchKit/Common/ORKTextButton_Internal.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		86CC8E971AC09332001CCD89 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC40696121104DDF00A4100C /* ResearchKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B183A5591A8535D100C76870 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -335,12 +256,9 @@
 		3FFF18341829DB1D00167070 = {
 			isa = PBXGroup;
 			children = (
-				B11DF3B21AA109C8009E76D2 /* docs */,
 				86B623AF19520B770074CD3C /* ResearchKit */,
-				86CC8EA61AC09383001CCD89 /* ResearchKitTests */,
 				3FFF183F1829DB1D00167070 /* Frameworks */,
 				3FFF183E1829DB1D00167070 /* Products */,
-				8419D66A1FB73C5A0088D7E5 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -348,7 +266,6 @@
 			isa = PBXGroup;
 			children = (
 				B183A5951A8535D100C76870 /* ResearchKit.framework */,
-				86CC8E9A1AC09332001CCD89 /* ResearchKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -372,14 +289,6 @@
 				6146D0A21B84A91E0068491D /* ORKLineGraphAccessibilityElement.m */,
 			);
 			path = Accessibility;
-			sourceTree = "<group>";
-		};
-		8419D66A1FB73C5A0088D7E5 /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-				FB30E8571C7D030F0005AD25 /* ORKTextButton_Internal.h */,
-			);
-			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 		86B623AF19520B770074CD3C /* ResearchKit */ = {
@@ -407,36 +316,6 @@
 				24B3535D1BB21137009ED6F8 /* Utilities */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		86CC8EA61AC09383001CCD89 /* ResearchKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				FA7A9D351B09362D005A2BEA /* Consent */,
-				86CC8EA71AC09383001CCD89 /* Info.plist */,
-				86CC8EA81AC09383001CCD89 /* ORKAccessibilityTests.m */,
-				248604051B4C98760010C8A0 /* ORKAnswerFormatTests.m */,
-				86CC8EA91AC09383001CCD89 /* ORKChoiceAnswerFormatHelperTests.m */,
-				86CC8EAB1AC09383001CCD89 /* ORKDataLoggerManagerTests.m */,
-				86CC8EAC1AC09383001CCD89 /* ORKDataLoggerTests.m */,
-				86CC8EAD1AC09383001CCD89 /* ORKHKSampleTests.m */,
-				86D348001AC16175006DB02B /* ORKRecorderTests.m */,
-				86CC8EAF1AC09383001CCD89 /* ORKResultTests.m */,
-				BCB96C121B19C0EC002A0B96 /* ORKStepTests.m */,
-				BCAD50E71B0201EE0034806A /* ORKTaskTests.m */,
-				86CC8EB01AC09383001CCD89 /* ORKTextChoiceCellGroupTests.m */,
-				2EBFE11C1AE1B32D00CB8254 /* ORKUIViewAccessibilityTests.m */,
-				2EBFE11F1AE1B74100CB8254 /* ORKVoiceEngineTests.m */,
-			);
-			path = ResearchKitTests;
-			sourceTree = "<group>";
-		};
-		B11DF3B21AA109C8009E76D2 /* docs */ = {
-			isa = PBXGroup;
-			children = (
-				B11DF3B31AA109C8009E76D2 /* AppledocSettings.plist */,
-			);
-			path = docs;
 			sourceTree = "<group>";
 		};
 		B12EFF311AB2100400A80147 /* Skin */ = {
@@ -487,17 +366,6 @@
 			name = "Ring View";
 			sourceTree = "<group>";
 		};
-		FA7A9D351B09362D005A2BEA /* Consent */ = {
-			isa = PBXGroup;
-			children = (
-				86CC8EAA1AC09383001CCD89 /* ORKConsentTests.m */,
-				FA7A9D2A1B082688005A2BEA /* ORKConsentDocumentTests.m */,
-				FA7A9D361B09365F005A2BEA /* ORKConsentSectionFormatterTests.m */,
-				FA7A9D381B0969A7005A2BEA /* ORKConsentSignatureFormatterTests.m */,
-			);
-			name = Consent;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -542,24 +410,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		86CC8E991AC09332001CCD89 /* ResearchKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 86CC8EA31AC09332001CCD89 /* Build configuration list for PBXNativeTarget "ResearchKitTests" */;
-			buildPhases = (
-				86CC8E961AC09332001CCD89 /* Sources */,
-				86CC8E971AC09332001CCD89 /* Frameworks */,
-				86CC8E981AC09332001CCD89 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				86CC8EA21AC09332001CCD89 /* PBXTargetDependency */,
-			);
-			name = ResearchKitTests;
-			productName = "ResearchKit Tests";
-			productReference = 86CC8E9A1AC09332001CCD89 /* ResearchKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		B183A4731A8535D100C76870 /* ResearchKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B183A5921A8535D100C76870 /* Build configuration list for PBXNativeTarget "ResearchKit" */;
@@ -590,14 +440,8 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = researchkit.org;
 				TargetAttributes = {
-					86CC8E991AC09332001CCD89 = {
-						CreatedOnToolsVersion = 6.2;
-					};
 					B183A4731A8535D100C76870 = {
 						LastSwiftMigration = 0900;
-					};
-					B18FF3A41A9FE25700C0C3B0 = {
-						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
@@ -661,20 +505,11 @@
 			projectRoot = "";
 			targets = (
 				B183A4731A8535D100C76870 /* ResearchKit */,
-				86CC8E991AC09332001CCD89 /* ResearchKitTests */,
-				B18FF3A41A9FE25700C0C3B0 /* docs */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		86CC8E981AC09332001CCD89 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B183A5681A8535D100C76870 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -700,47 +535,9 @@
 			shellScript = "# License check: all\n\necho \"Checking for BSD license text (files missing licenses listed below):\"\n\nLICENSE_MISSING=`find . -name '*.[hm]' -o -name '*.vsh' -o -name '*.fsh' -exec grep -iL \"THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\" {} \\;`\necho \"$LICENSE_MISSING\"\n\ntest \"$LICENSE_MISSING\" == \"\"\n\n";
 			showEnvVarsInLog = 0;
 		};
-		B18FF3A81A9FE26300C0C3B0 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ ! -x /usr/local/bin/appledoc ]; then\n    echo \"error: appledoc is required for building ResearchKit's documentation. See http://appledoc.gentlebytes.com\" 1>&2\n    exit 1\nfi\n\n/usr/local/bin/appledoc --print-settings --publish-docset --install-docset --output \"${BUILT_PRODUCTS_DIR}/docs/\" --include \"docs/ActiveTasks\" --include \"docs/InformedConsent\" --include \"docs/Overview\" --include \"docs/Survey\" --include \"docs/ChartsAndGraphs\" --include \"docs/Passcode\" --include \"docs/Account\" --ignore \"docs/templates\" --templates \"docs/templates\" \"${BUILT_PRODUCTS_DIR}/ResearchKit.framework\" \"docs\"\n\necho \"note: Opening documentation in browser...\"\nopen \"$HOME/Library/Developer/Shared/Documentation/DocSets/org.researchkit.ResearchKit.docset/Contents/Resources/Documents/index.html\"";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		86CC8E961AC09332001CCD89 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86CC8EB71AC09383001CCD89 /* ORKDataLoggerTests.m in Sources */,
-				248604061B4C98760010C8A0 /* ORKAnswerFormatTests.m in Sources */,
-				86CC8EBA1AC09383001CCD89 /* ORKResultTests.m in Sources */,
-				FA7A9D391B0969A7005A2BEA /* ORKConsentSignatureFormatterTests.m in Sources */,
-				86CC8EB81AC09383001CCD89 /* ORKHKSampleTests.m in Sources */,
-				BCB96C131B19C0EC002A0B96 /* ORKStepTests.m in Sources */,
-				86CC8EB51AC09383001CCD89 /* ORKConsentTests.m in Sources */,
-				2EBFE11D1AE1B32D00CB8254 /* ORKUIViewAccessibilityTests.m in Sources */,
-				86CC8EB41AC09383001CCD89 /* ORKChoiceAnswerFormatHelperTests.m in Sources */,
-				2EBFE1201AE1B74100CB8254 /* ORKVoiceEngineTests.m in Sources */,
-				BCAD50E81B0201EE0034806A /* ORKTaskTests.m in Sources */,
-				86CC8EBB1AC09383001CCD89 /* ORKTextChoiceCellGroupTests.m in Sources */,
-				FA7A9D2B1B082688005A2BEA /* ORKConsentDocumentTests.m in Sources */,
-				FA7A9D371B09365F005A2BEA /* ORKConsentSectionFormatterTests.m in Sources */,
-				86D348021AC161B0006DB02B /* ORKRecorderTests.m in Sources */,
-				86CC8EB61AC09383001CCD89 /* ORKDataLoggerManagerTests.m in Sources */,
-				86CC8EB31AC09383001CCD89 /* ORKAccessibilityTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B183A4F71A8535D100C76870 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -772,19 +569,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		86CC8EA21AC09332001CCD89 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B183A4731A8535D100C76870 /* ResearchKit */;
-			targetProxy = 86CC8EA11AC09332001CCD89 /* PBXContainerItemProxy */;
-		};
-		B11DF3B11AA10795009E76D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B183A4731A8535D100C76870 /* ResearchKit */;
-			targetProxy = B11DF3B01AA10795009E76D2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B1C0F4E11A9BA65F0022C153 /* ResearchKit.strings */ = {
@@ -937,47 +721,6 @@
 			};
 			name = Release;
 		};
-		86CC8EA41AC09332001CCD89 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "$(SRCROOT)/ResearchKitTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.researchkit.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		86CC8EA51AC09332001CCD89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "$(SRCROOT)/ResearchKitTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.researchkit.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		B183A5931A8535D100C76870 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1045,20 +788,6 @@
 			};
 			name = Release;
 		};
-		B18FF3A51A9FE25700C0C3B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		B18FF3A61A9FE25700C0C3B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1071,29 +800,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86CC8EA31AC09332001CCD89 /* Build configuration list for PBXNativeTarget "ResearchKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				86CC8EA41AC09332001CCD89 /* Debug */,
-				86CC8EA51AC09332001CCD89 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B183A5921A8535D100C76870 /* Build configuration list for PBXNativeTarget "ResearchKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B183A5931A8535D100C76870 /* Debug */,
 				B183A5941A8535D100C76870 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B18FF3A71A9FE25700C0C3B0 /* Build configuration list for PBXAggregateTarget "docs" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B18FF3A51A9FE25700C0C3B0 /* Debug */,
-				B18FF3A61A9FE25700C0C3B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
