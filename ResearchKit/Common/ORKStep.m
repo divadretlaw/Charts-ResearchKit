@@ -32,13 +32,7 @@
 #import "ORKStep.h"
 #import "ORKStep_Private.h"
 
-#import "ORKStepViewController.h"
-
-#import "ORKOrderedTask.h"
-#import "ORKStepViewController_Internal.h"
-
 #import "ORKHelpers_Internal.h"
-
 
 @implementation ORKStep
 
@@ -57,26 +51,6 @@
         _identifier = [identifier copy];
     }
     return self;
-}
-
-+ (Class)stepViewControllerClass {
-    return [ORKStepViewController class];
-}
-
-- (Class)stepViewControllerClass {
-    return [[self class] stepViewControllerClass];
-}
-
-- (ORKStepViewController *)instantiateStepViewControllerWithResult:(ORKResult *)result {
-    Class stepViewControllerClass = [self stepViewControllerClass];
-    
-    ORKStepViewController *stepViewController = [[stepViewControllerClass alloc] initWithStep:self result:result];
-    
-    // Set the restoration info using the given class
-    stepViewController.restorationIdentifier = self.identifier;
-    stepViewController.restorationClass = stepViewControllerClass;
-    
-    return stepViewController;
 }
 
 - (instancetype)copyWithIdentifier:(NSString *)identifier {
@@ -127,7 +101,7 @@
         ORK_DECODE_OBJ_CLASS(aDecoder, title, NSString);
         ORK_DECODE_OBJ_CLASS(aDecoder, text, NSString);
         ORK_DECODE_BOOL(aDecoder, optional);
-        ORK_DECODE_OBJ_CLASS(aDecoder, task, ORKOrderedTask);
+        // ORK_DECODE_OBJ_CLASS(aDecoder, task, ORKOrderedTask);
         ORK_DECODE_BOOL(aDecoder, shouldTintImages);
         ORK_DECODE_BOOL(aDecoder, useSurveyMode);
     }
@@ -141,9 +115,9 @@
     ORK_ENCODE_BOOL(aCoder, optional);
     ORK_ENCODE_BOOL(aCoder, shouldTintImages);
     ORK_ENCODE_BOOL(aCoder, useSurveyMode);
-    if ([_task isKindOfClass:[ORKOrderedTask class]]) {
-        ORK_ENCODE_OBJ(aCoder, task);
-    }
+    /*if ([_task isKindOfClass:[ORKOrderedTask class]]) {
+     ORK_ENCODE_OBJ(aCoder, task);
+     }*/
 }
 
 - (NSString *)description {
